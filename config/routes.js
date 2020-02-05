@@ -24,7 +24,9 @@ module.exports.routes = {
   '/services': {view: 'pages/services'},
   '/about': {view: 'pages/about'},
   '/gallery': {view: 'pages/gallery'},
-  '/testimonials': {view: 'pages/testimonials'}
+  '/testimonials': {view: 'pages/testimonials'},
+  '/bookings': {view: 'pages/bookings'},
+
 
 
 
