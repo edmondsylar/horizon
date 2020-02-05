@@ -39,13 +39,13 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a class="<%= (req.path == '/') ? 'nav-link active' : '' %> " href="/" class="nav-link active">Home</a></li>
-              <li><a class="<%= (req.path == '/about') ? 'nav-link active' : '' %> " href="/about">About</a></li>
-              <li><a class="<%= (req.path == '/services') ? 'nav-link active' : '' %> " href="/services">Service</a></li>
+              <li onclick="window.location.href='/'"><a class="<%= (req.path == '/') ? 'nav-link active' : '' %> " href="/" class="nav-link active">Home</a></li>
+              <li onclick="window.location.href='/about'"><a class="<%= (req.path == '/about') ? 'nav-link active' : '' %> " href="/about">About</a></li>
+              <li onclick="window.location.href='/services'"><a class="<%= (req.path == '/services') ? 'nav-link active' : '' %> " href="/services">Service</a></li>
               <!-- <li><a class="<%= (req.path == '/gallery')? 'nav-link active' : '' %> " href="/gallery">Gallery</a></li> -->
-              <li><a class="<%= (req.path == '/bookings')? 'nav-link active' : '' %> " href="/bookings">bookings</a></li>
-              <li><a class="<%= (req.path == '/testimonials')? 'nav-link active' : '' %> " href="/testimonials">Testimonials</a></li>
-              <li><a class="<%= (req.path == '/contact') ? 'nav-link active' : '' %> " href="/contact">Contact</a></li>
+              <li onclick="window.location.href='/bookings'"><a class="<%= (req.path == '/bookings')? 'nav-link active' : '' %> " href="/bookings">bookings</a></li>
+              <li onclick="window.location.href='/testimonials'"><a class="<%= (req.path == '/testimonials')? 'nav-link active' : '' %> " href="/testimonials">Testimonials</a></li>
+              <li onclick="window.location.href='/contact'"><a class="<%= (req.path == '/contact') ? 'nav-link active' : '' %> " href="/contact">Contact</a></li>
             </ul>
           </nav>
 
